@@ -544,6 +544,18 @@ This is subject to normal substitutions.
 ____
 ....
 
+下記の書き方の場合は attribution にリンクが設定できる。
+
+"I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical."
+-- https://example.com/[Thomas Jefferson], Papers of Thomas Jefferson: Volume 11
+
+....
+"I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical."
+-- https://example.com/[Thomas Jefferson], Papers of Thomas Jefferson: Volume 11
+....
+
 [verse, firstname lastname, poem title and more]
 ____
 This is a verse block.
