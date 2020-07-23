@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - apt update -y
+      - apt install -y asciidoctor
+  build:
+    commands:
+      - asciidoctor -D build -o index.html asciidoc-cheatsheet.adoc
+artifacts:
+  files:
+    - '**/*'
+  base-directory: build
